@@ -12,4 +12,4 @@ days = {
 
 num = int(input("Enter a number (1-7): "))
 
-print(days.get(num, "Invalid input. Please enter a number between 1 and 7."))
+print(days[num])
