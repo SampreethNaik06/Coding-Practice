@@ -1,14 +1,17 @@
 # to find the third angle of a triangle when two angles are given
 
-def check_angle(a,b):
-    if a <0 or b<0 :
-        print("angles cannot be negative")
-    elif a+b >= 180:
-        print("the sum of angles cannot be greater than or equal to 180")
-    else:
-        c = 180 - (a+b)
-        print(f"the third angle of the triangle is {c}")
+def checkangle(x,y):
+    if x<0 & y<0:
+        print("angles cannot be in negetive")
+    elif x+y > 180 :
+        print("sum 0f angles in a triangle annot be greater thn 180 degree")
+    return 
+
+    t_angle = 0
+    t_angle = 180 -(x+y)
+    print(f"{t_angle} is the third angle") 
+
         
-check_angle(60, 90)
-check_angle(120, 30)
-check_angle(100, 90)
+checkangle(60, 90)
+checkangle(120, 30)
+checkangle(100, 90)

@@ -17,5 +17,4 @@ def find_century(year):
 
 find_century(1905)
 
-    
-    
+ 

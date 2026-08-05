@@ -1,14 +1,12 @@
-# check if the first and last digits are equalin a 4 digit number
-def check_equality(num):
-    number = str(num)
-    if len(number) != 4:
+# check if the first and last digits are equal in a 4 digit number
+def check_equal(num):
+    num = str(num)
+    if len(num) != 4:
         print("invalid input")
-    elif number[0] == number[3]:
-        print("first and last digits are equal")
-    else:   
-        print("first and last digits are not equal")
-        
-        
-check_equality(1234)
-check_equality(1221)
-    
+    if len(num) == 4:
+        if num[0] == num[3]:
+            print(f"first and last of {num} is equal ")
+        else:
+            print("you gave a shit input")
+check_equal(1221)
+check_equal(1234)    

@@ -7,3 +7,4 @@ def palindrome(n):
         print("not a palindrome")
         
 palindrome(121)
+palindrome("malayalam")

@@ -4,6 +4,7 @@ def axis(x, y):
         print("origin")
     elif x == 0:
         print("y axis")
+    
     elif y == 0:
         print("x axis")
     else:
@@ -13,3 +14,4 @@ axis(0, 0)
 axis(0, 5)
 axis(4, 0)
 axis(3, 7)
+axis(0,-1)
