@@ -11,6 +11,7 @@ def sum_digits():
             num = num//10
             
         if digit_sum % 2 ==0 :
-            print(i)
-
+            print("even")
+        else:
+            print("odd")
 sum_digits()

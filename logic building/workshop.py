@@ -1,9 +1,9 @@
 # workshop on python :
-def ho_add(x):
-    return lambda y: x+y
+# def ho_add(x):
+#     return lambda y: x+y
 
-f = ho_add(100)
-f(20)
+# f = ho_add(100)
+# f(20)
 
 
 # def outer(x):
@@ -28,7 +28,12 @@ f(20)
 # print(f(20))
 
 
-a = 10 
-b = 10 
-assert a ==b 
-print(a is b)
+# a = 10 
+# b = 10 
+# assert a ==b 
+# print(a is b)
+
+
+
+
+
