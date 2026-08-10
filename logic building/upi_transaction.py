@@ -16,4 +16,30 @@
 # print(sam == lan)
 # print(sam is lan)
 
+# create a dictionary  and take key as  phone number 
+
+def create_handle(uid,bank_id):
+    return (uid,bank_id)
+
+def read_id(uh):
+    return uh[0]
+
+def read_bank_id(ug):
+    return ug[1]
+
+
+
+
+print(create_handle("sampreeth","@okaxis"))
+
+
+
+class UpiPaymentTx:
+    pass
+
+class upi(UpiPaymentTx):
+    def __int__():
+        pass
+class upireceipt(upi):
+    pass
 
