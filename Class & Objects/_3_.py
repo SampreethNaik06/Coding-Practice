@@ -1,6 +1,8 @@
-# Class Variables
+ # regular methods class methods and static methods
 
-# class variables can be shared amoung all instances of a class while instance variables are accessible among only that instances
+# regular methods automatically takes the instance as the first argument i.e self 
+
+
 
 class Employee:
 
@@ -21,6 +23,12 @@ class Employee:
 
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amt)
+
+
+    @classmethod
+    def set_raise_amount(cls,amount):
+        cls.raise_amt = amount
+
 
 employee_1 = Employee('ampreeth','naik',90000)
 employee_2 = Employee('lan','merill',90000)
